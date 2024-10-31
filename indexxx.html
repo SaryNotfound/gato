@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<h1>CALCULADORA</h1>
+<body>
+    <nav>
+        <a href="#" onclick="showOperations ('aritmeticas')">operaciones aritmeticas</a>
+        <a href="#" onclick="showOperations ('logicas')">operaciones logicas</a>
+        <a href="#" onclick="showOperations ('de comparacion')">operaciones de comparacion</a>
+    </nav>
+        <input type="number" placeholder="numero 1">
+        <input type="number" placeholder="numero 2">
+        
+    <div id="operaciones">
+        <div id="aritmeticas" class="operaciones">
+            <button onclick = "calcular ('resta')">resta</button>
+            <button onclick = "calcular ('suma')">suma</button>
+            <button onclick = "calcular ('multiplicacion')">multiplicacion</button>
+            <button onclick = "calcular ('division')">division</button>
+        </div>
+
+        <div id="logicas" class="operaciones">
+            <button onclick = "calcular ('and')">AND</button>
+            <button onclick = "calcular ('OR')">OR</button>
+            <button onclick = "calcular ('not')">not</button>
+        </div> 
+
+        <div id="de comparacion" class = "operaciones">
+            <button onclick = "calcular ('mi')">mim</button>
+            <button onclick = "calcular ('mimi')">mimi</button>
+            <button onclick = "calcular ('nmi')">nmiim</button>
+        </div>
+
+
+
+
+
+    </div>
+
+     
+
+</body>
+</html>
